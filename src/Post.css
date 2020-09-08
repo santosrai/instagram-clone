@@ -1,0 +1,39 @@
+.post {
+    background-color: white;
+    max-width: 500px;
+    border: 1px solid lightgrey;
+    margin-bottom: 45px;
+}
+
+.post__header {
+    display:flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.post__avatar {
+    margin-right: 10px;
+}
+
+.post__image {
+    width: 100%;
+    object-fit: contain;
+    /* make image dragable to width of browser */
+}
+
+.post__text {
+    font-weight: normal;
+}
+
+.post__comments {
+    padding:20px
+}
+
+.post__commentBox {
+    display: flex;
+    margin-top: 10px;
+}
+.post__input{
+    width: 100%;
+}
+
